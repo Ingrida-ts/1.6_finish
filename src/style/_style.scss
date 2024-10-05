@@ -1,0 +1,94 @@
+.header {
+padding:18px 24px 18px 24px;
+position: relative;
+    &__body {
+        display: flex;  
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__button {
+        &:nth-child(6){
+            position: relative;
+            &::before{
+                position: absolute;
+                background-color: $border;
+                left: -25px;
+                top: 6px;
+                content: "";
+                height: 32px;
+                width: 2px;
+                margin-left: 12px;
+                }
+             }
+
+        &_hidden {
+            display: none;
+            @media (min-width:768px) {
+                display: inline-block;
+            }
+
+        }
+        &::before{
+            position: absolute;
+            background-color: $border_heder;
+            left: 0px;
+            top: 91px;
+            content: "";
+            height: 1px;
+            width: 100%;
+        }
+    }
+
+    &__logo {
+        flex:0.7;
+        @media (min-width:768px) {
+            position: relative;
+            margin-left: 5px;
+            &::before{
+                position: absolute;
+                background-color: $border;
+                left: -25px;
+                top: 12px;
+                content: "";
+                height: 32px;
+                width: 2px;
+                margin-left: 10px;
+            }
+        }    
+    }
+    @media (min-width:1440px) {
+        display: none;
+    }
+}
+
+.upper-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $pink;
+    border:none;
+    font-family: TT Lakes;
+
+
+
+    
+    &:hover{
+        background-color: $pink-hover;
+    }
+
+    &:active{
+        background-color: $pink-focus;
+    }    
+
+    &__image {
+        vertical-align: top;
+     }
+}
+
+.logo {
+    &__image {
+        width: 97px;
+        height: 51px;
+    }
+}

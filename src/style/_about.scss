@@ -1,0 +1,203 @@
+.about {
+    padding-bottom: 24px;
+    background: $back;
+    &_h1 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    &__body {
+    }
+
+    &__header {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    &__buttons {
+        margin-right: 16px;
+        display: none;
+        @media (min-width:1440px) {
+            display: inline-block;
+        }
+    }
+
+    &__button {
+        margin-left: 150px;
+        position:relative;
+        &:first-child{
+            &::before{
+                position: absolute;
+                top: 11px;
+                left: -135px;
+                content:"Оставить заявку";
+            }   
+        }
+        &:last-child{
+            &::before{
+                position: absolute;
+                top: 11px;
+                left: -135px;
+                content:"Статус ремонта";
+            }   
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        white-space: nowrap;
+        overflow: scroll;
+        gap: 1px; 
+        padding-top: 14px;
+        padding-left:16px;
+        padding-bottom: 24px;
+        text-decoration: none;
+        &::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+    }
+
+    &__item {
+        list-style-type: none;   
+    }
+
+    &__us {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4%;
+        @media (min-width:768px) {
+            display: flex;
+            flex-flow:row nowrap;
+            align-items: stretch;
+            padding: 8px 24px 0px 8px;
+        }
+        @media (min-width:1120px) {
+        
+            padding: 8px 24px 0px 18px;
+        }
+    }
+
+    &__info {
+        padding-left: 16px;
+        padding-right: 16px;
+        flex:1 0 288px;
+        @media (min-width:768px) {
+            flex:1; 
+            padding-right: 24px;
+        }
+    }
+    &__text{
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: left;
+        height: 90px;
+        overflow: hidden;
+      
+        &--expand{
+            height: auto;
+        }
+
+    }
+
+    &__arrows {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    &__image-mob {
+        width: 100%;
+        @media (min-width:768px){
+            flex: 1;
+        }
+        @media (min-width:1120px) {
+            display: none;
+        }
+        
+    }
+
+    &__image-lap {
+        display: none;
+        @media (min-width:1120px) {
+            display: flex;
+            flex: 1;
+            
+        }
+    }
+   
+}
+.h1 {
+    
+    font-size: 28px;
+    color: $h1_text;
+    padding:24px 16px 24px 16px;
+    position:relative;
+    @media (min-width:768px) {
+        padding:24px 16px 24px 24px;
+    }
+
+    &::after{
+        position: absolute;
+        background-color: $border_h1;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        left: 0px;
+        top: 20px;
+        content: "";
+        height: 40px;
+        width: 4px;
+    }
+
+}
+
+.slide-menu {
+    text-decoration: none;
+    font-size: 16px;
+    color: $text_button;
+    padding: 6px 14px 6px 14px;
+
+    
+    
+    &:focus{
+        border:2px solid $border_button;
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+}
+.arrows-link {
+    display: block;
+    color:$text;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 410;
+    padding: 4px 4px 4px 30px;
+    position:relative;
+    border: transparent;
+    border-radius: 6px;
+    background: $back;
+
+    &:hover{
+        border: 1px solid $border_h1;
+    }
+
+    &--reverse {
+        &::before {
+          transform: rotate(180deg);
+        }
+    }
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 4px;
+        left: 0;
+        background: url(img/brands/arrow.svg) 50% no-repeat;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
