@@ -12614,14 +12614,16 @@ var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(
 var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ./img/menu/call.svg */ "./src/img/menu/call.svg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ./img/menu/chat.svg */ "./src/img/menu/chat.svg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ./img/menu/profile.svg */ "./src/img/menu/profile.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/str.svg */ "./src/img/brands/str.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/2-bosch.svg */ "./src/img/brands/2-bosch.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/3-samsung.svg */ "./src/img/brands/3-samsung.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/4-apple.svg */ "./src/img/brands/4-apple.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/5-Bitmap.svg */ "./src/img/brands/5-Bitmap.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/6-hp.svg */ "./src/img/brands/6-hp.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/7-acer.svg */ "./src/img/brands/7-acer.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/8-sony.svg */ "./src/img/brands/8-sony.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ./img/about/_MG_3223.png */ "./src/img/about/_MG_3223.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ./img/about/_MG_3224.png */ "./src/img/about/_MG_3224.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/str.svg */ "./src/img/brands/str.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/2-bosch.svg */ "./src/img/brands/2-bosch.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/3-samsung.svg */ "./src/img/brands/3-samsung.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/4-apple.svg */ "./src/img/brands/4-apple.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/5-Bitmap.svg */ "./src/img/brands/5-Bitmap.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/6-hp.svg */ "./src/img/brands/6-hp.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/7-acer.svg */ "./src/img/brands/7-acer.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/8-sony.svg */ "./src/img/brands/8-sony.svg"), __webpack_require__.b);
 // Module
 var code = `<!DOCTYPE html>
 <html lang="en">
@@ -12775,8 +12777,8 @@ var code = `<!DOCTYPE html>
                             Читать далее
                     </button>
                 </div>          
-                <!-- <img class="about__image-mob image" src="img/about/_MG_3223.png" alt="CPS логотип компании"/>  -->
-                <!-- <img class="about__image-lap image" src="img/about/_MG_3224.png" alt="CPS логотип компании"/>  -->
+                <img class="about__image-mob image" src="${___HTML_LOADER_IMPORT_12___}" alt="CPS логотип компании"/> 
+                <img class="about__image-lap image" src="${___HTML_LOADER_IMPORT_13___}" alt="CPS логотип компании"/> 
             </div>   
         </div>  
     </section>
@@ -12791,66 +12793,66 @@ var code = `<!DOCTYPE html>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
                         <!-- <img class="brand-link__image" src="img/brands/1-lenovo.svg" alt="lenovo"> -->
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_13___}" alt="bosch">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_15___}" alt="bosch">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_14___}" alt="samsung">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
-                    </a>
-                </li>
-                <li class="brands__item swiper-slide">
-                    <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_15___}" alt="apple">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_16___}" alt="samsung">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_16___}" alt="viewSonic">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_17___}" alt="apple">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_17___}" alt="hp">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_18___}" alt="viewSonic">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_18___}" alt="acer">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_19___}" alt="hp">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_19___}" alt="sony">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_20___}" alt="acer">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                    </a>
+                </li>
+                <li class="brands__item swiper-slide">
+                    <a href="#" class="brand-link">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_21___}" alt="sony">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
                        <!-- <img class="brand-link__image" src="img/brands/1-lenovo.svg" alt="lenovo"> -->
-                       <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                       <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_13___}" alt="bosch">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_15___}" alt="bosch">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_14___}" alt="lenovo">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_16___}" alt="lenovo">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
             </ul>
@@ -12872,49 +12874,49 @@ var code = `<!DOCTYPE html>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт ноутбуков</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт планшетов</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт ПК</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт мониторов</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт ноутбуков</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт планшетов</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт ПК</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт мониторов</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_12___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
                     </a>
                 </li>
             </ul>
@@ -13475,6 +13477,28 @@ module.exports = styleTagTransform;
 
 "use strict";
 module.exports = "data:application/font-woff;charset=utf-8;base64, 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";
+
+/***/ }),
+
+/***/ "./src/img/about/_MG_3223.png":
+/*!************************************!*\
+  !*** ./src/img/about/_MG_3223.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/1373dbcb43b89015b7f0.png";
+
+/***/ }),
+
+/***/ "./src/img/about/_MG_3224.png":
+/*!************************************!*\
+  !*** ./src/img/about/_MG_3224.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/4c6b88997d2d738b6a38.png";
 
 /***/ }),
 
@@ -24460,4 +24484,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=main.f12d0dfcdfe1005166b3.js.map
+//# sourceMappingURL=main.f8c31539d6b5e25c0353.js.map
