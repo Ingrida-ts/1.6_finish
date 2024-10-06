@@ -12616,14 +12616,15 @@ var ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__
 var ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ./img/menu/profile.svg */ "./src/img/menu/profile.svg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ./img/about/_MG_3223.png */ "./src/img/about/_MG_3223.png"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ./img/about/_MG_3224.png */ "./src/img/about/_MG_3224.png"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/str.svg */ "./src/img/brands/str.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/2-bosch.svg */ "./src/img/brands/2-bosch.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/3-samsung.svg */ "./src/img/brands/3-samsung.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/4-apple.svg */ "./src/img/brands/4-apple.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/5-Bitmap.svg */ "./src/img/brands/5-Bitmap.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/6-hp.svg */ "./src/img/brands/6-hp.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/7-acer.svg */ "./src/img/brands/7-acer.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/8-sony.svg */ "./src/img/brands/8-sony.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/1-lenovo.svg */ "./src/img/brands/1-lenovo.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/str.svg */ "./src/img/brands/str.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/2-bosch.svg */ "./src/img/brands/2-bosch.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/3-samsung.svg */ "./src/img/brands/3-samsung.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/4-apple.svg */ "./src/img/brands/4-apple.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/5-Bitmap.svg */ "./src/img/brands/5-Bitmap.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/6-hp.svg */ "./src/img/brands/6-hp.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/7-acer.svg */ "./src/img/brands/7-acer.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_22___ = new URL(/* asset import */ __webpack_require__(/*! ./img/brands/8-sony.svg */ "./src/img/brands/8-sony.svg"), __webpack_require__.b);
 // Module
 var code = `<!DOCTYPE html>
 <html lang="en">
@@ -12792,67 +12793,67 @@ var code = `<!DOCTYPE html>
             <ul class="brands__list swiper-wrapper" >
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <!-- <img class="brand-link__image" src="img/brands/1-lenovo.svg" alt="lenovo"> -->
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_14___}" alt="lenovo">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_15___}" alt="bosch">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_16___}" alt="bosch">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_16___}" alt="samsung">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
-                    </a>
-                </li>
-                <li class="brands__item swiper-slide">
-                    <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_17___}" alt="apple">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_17___}" alt="samsung">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_18___}" alt="viewSonic">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_18___}" alt="apple">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_19___}" alt="hp">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_19___}" alt="viewSonic">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_20___}" alt="acer">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_20___}" alt="hp">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_21___}" alt="sony">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_21___}" alt="acer">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                       <!-- <img class="brand-link__image" src="img/brands/1-lenovo.svg" alt="lenovo"> -->
-                       <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_22___}" alt="sony">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_15___}" alt="bosch">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                       <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_14___}" alt="lenovo">
+                       <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="brands__item swiper-slide">
                     <a href="#" class="brand-link">
-                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_16___}" alt="lenovo">
-                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_16___}" alt="bosch">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
+                    </a>
+                </li>
+                <li class="brands__item swiper-slide">
+                    <a href="#" class="brand-link">
+                        <img class="brand-link__image" src="${___HTML_LOADER_IMPORT_17___}" alt="lenovo">
+                        <img class="brand-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
             </ul>
@@ -12874,49 +12875,49 @@ var code = `<!DOCTYPE html>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт ноутбуков</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт планшетов</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт ПК</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт мониторов</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт ноутбуков</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт планшетов</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт ПК</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
                 <li class="technic__item swiper-slide">
                     <a href="#" class="technic-link">
                         <p class="technic-link__item">Ремонт мониторов</p>
-                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_14___}" alt="strelka">
+                        <img class="technic-link__button" src="${___HTML_LOADER_IMPORT_15___}" alt="strelka">
                     </a>
                 </li>
             </ul>
@@ -13499,6 +13500,17 @@ module.exports = __webpack_require__.p + "assets/1373dbcb43b89015b7f0.png";
 
 "use strict";
 module.exports = __webpack_require__.p + "assets/4c6b88997d2d738b6a38.png";
+
+/***/ }),
+
+/***/ "./src/img/brands/1-lenovo.svg":
+/*!*************************************!*\
+  !*** ./src/img/brands/1-lenovo.svg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/858618c0cb5721493fa3.svg";
 
 /***/ }),
 
@@ -24484,4 +24496,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=main.f8c31539d6b5e25c0353.js.map
+//# sourceMappingURL=main.c145a21fb23d7a9ca155.js.map
